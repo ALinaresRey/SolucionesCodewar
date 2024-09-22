@@ -1,0 +1,13 @@
+function areYouPlayingBanjo(name) {
+
+var primera=name.charAt(0);
+  if (primera=="R"||primera=="r"){
+    return name+" plays banjo";
+    
+  }else {
+    return name+" does not play banjo";
+  }
+
+
+  
+}

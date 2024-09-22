@@ -1,0 +1,23 @@
+function sc(floor){
+var Aa="Aa~";
+var noAh="Aa!"
+var golpe="Pa!"
+var final="Aa~";
+  if (floor <=1){
+    return "";
+  }else {
+    
+ 
+    
+  for (var i=0; i<floor-2 ; i++){
+    final=final+" "+Aa
+  }
+  
+  if (floor<7){
+return final+" "+golpe+" "+noAh;
+  
+}else{
+  return final+" "+golpe;
+}
+  }
+}

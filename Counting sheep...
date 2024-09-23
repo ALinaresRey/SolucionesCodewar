@@ -1,0 +1,15 @@
+function countSheeps(sheep) {
+ let count=0;
+  for(var i=0; i<sheep.length; i++){
+  if(sheep[i]=== true) {
+        count++;
+      }
+
+     
+
+
+
+ // TOD
+}
+    return count;
+}
